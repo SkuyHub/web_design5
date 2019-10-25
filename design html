@@ -1,0 +1,213 @@
+<html><head>
+<meta charset="UTF-8">
+<title>Portfolio</title>
+<style>
+html {
+background-color:#FEBD44;
+}
+
+.header {
+width:100%;
+padding: 100px 40px;
+/* box-sizing digunakan untuk mengikut-sertakan
+border pada elemen */
+box-sizing: border-box;
+text-align: center;
+color: white;
+
+border-bottom:2px solid #FEBD44;
+
+/* display flex */
+display: flex;
+flex-flow: row wrap;
+}
+
+.isi {
+width:100%;
+/* box-sizing digunakan untuk mengikut-sertakan
+border pada elemen */
+box-sizing: border-box;
+text-align: center;
+border-bottom:2px solid #FEBD44;
+
+/* display flex */
+display: flex;
+flex-flow: row wrap;
+}
+
+.isikanan {
+width:45%;
+padding-right:10px;
+padding-left:10px;
+border-left:2px solid #FEBD44;
+}
+
+.isikiri {
+width:45%;
+border-right:2px solid #FEBD44;
+padding-right: 10px;
+padding-left: 10px;
+}
+
+.footer {
+padding: 100px 40px;
+/* box-sizing digunakan untuk mengikut-sertakan
+border pada elemen */
+box-sizing: border-box;
+text-align: center;
+color: #000000;
+}
+
+.aturandivkiri {
+width:100%;
+padding-top:30px;
+padding-bottom:30px;
+}
+
+.aturandivkanan {
+	width:100%;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+
+.fotobundar200px {
+width:200px;
+height:200px;
+border-radius:50%;
+
+}
+
+.fotobundar200px:hover {
+border-radius: 0%; 
+}
+
+.headerkiri{
+width:50%;
+}
+.headerkanan {
+width:50%;
+color:#000000;
+}
+
+.headerkanan1 {
+margin-left:25px;
+border-left:10px solid #FEBD44;
+}
+
+.hurufmiring {
+font-style: italic;
+}
+
+.huruftebal {
+ font-weight: bold;
+}
+
+.teksratakiri {
+text-align:left;
+}
+.teksratatengah {
+text-align:center;
+}
+.teksratakanan {
+text-align:right;
+}
+
+.listtanpatitik {
+list-style:none;
+}
+
+.isikiri2 {
+	border-bottom:2px solid #FEBD44;
+	border-top:2px solid #FEBD44;
+}
+
+.isikanan1 {
+	border-bottom: 2px solid #FEBD44;
+}
+
+.red {
+	color: #ee495d;
+}
+
+.skill90 {
+	width: 100px;
+	height: 10px;
+	background-color: #ee495d;
+}
+
+.sans-serif {
+	font-family: 'Heebo', sans-serif;
+} 
+</style>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+
+<body class="drawed">
+<div style="background-color:#FEF5E6">
+<div class="header">
+<div class="headerkiri">
+<img src="darrell.jpg" class="fotobundar200px">
+</div>
+<div class="headerkanan"> 
+<div class="headerkanan1"><h1>Darrell Rafa Alamsyah</h1></div>
+
+<div class="headerkanan2 red"><h3 class="hurufmiring">Web Deeveloper</h3></div>
+
+<div class="headerkanan3">
+<ul class="teksratakiri listtanpatitik">
+<li class="huruftebal"><i class="fa fa-phone"></i> 081932223046</li>
+<li><i class="fa fa-envelope-o"></i> darrell2645@gmail.com</li>
+<li><i class="fa fa-map-marker"></i> Bekasi</li>
+</ul>
+</div>
+
+
+
+
+</div>
+</div>
+<div class="isi">
+<div class="isikiri">
+<div class="aturandivkiri">
+	<p class="teksratakiri sans-serif"><i class="fa fa-book red"></i> EDUCATION</p>
+			<ul class="teksratakiri">
+				<li>Sabilina Islamic School 2011-2017</li>
+				<li>IDN Boarding School 2018-2020</li>
+			</ul>
+</div>
+<div class="aturandivkiri isikiri2">
+	<p class="teksratakiri sans-serif"><i class="fa fa-thumbs-o-up red"></i> HOBBY</p>
+   <ul class="teksratakiri listtanpatitik">
+   	<li><i class="fa fa-bicycle"> Cycling</i></li>
+   	<li><i class="fa fa-gamepad"> Playing Games</i></li>
+   	<li><i class="fa fa-film"> Watching Movie</i></li>
+   	<li><i class="fa fa-code"> Coding</i></li>
+   </ul>
+</div>
+<div class="aturandivkiri">
+	<p class="teksratakiri sans-serif">
+		<i class="fa fa-lightbulb-o red"></i>
+	 SOFTWARE</p>
+	 <ul class="teksratakiri">
+	 	<li>Android Studio</li>
+	 	<li>Intelij Idea</li>
+	 	<li>Sublime Text</li>
+	 	<li>Adobe Photoshop</li>
+	 </ul>
+</div>
+</div>
+<div class="isikanan">
+
+	<div class="aturandivkanan isikanan1">
+		<p class="teksratatengah sans-serif">
+			<i class="fa fa-user red"></i>
+		About Me</p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.
+	</div>
+</div>
+</div>
+<div class="footer">Find me in!<br><a href="https://github.com/darrell2645"><i class="fa fa-github" style="padding-right: 20px"></i></a><a href="https://www.instagram.com/_darrell2645_/"><i class="fa fa-instagram"></i></a></div>
+</div>
+
+</body></html>
